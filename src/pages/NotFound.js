@@ -5,7 +5,7 @@ function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="not-found">
       <h3>404 - Không tìm thấy trang</h3>
       <p>Trang bạn đang tìm kiếm không tồn tại</p>
       <button onClick={() => navigate("/")}>Về trang chủ</button>
